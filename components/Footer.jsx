@@ -18,15 +18,15 @@ const Footer = () => {
         className="absolute -top-48 left-96"
         alt="Footer Lady with laptop"
       />
-      <div className="grid grid-cols-4 gap-10 h-full mx-10">
-        <div className="col-span-2 flex items-center  flex-col justify-evenly">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 h-full mx-10">
+        <div className="col-span-1 md:col-span-2 flex items-center flex-col justify-evenly">
           <div className="logo">
             <Image src={footerLogo} alt="Footer Logo" height="80%" width="80%" />
           </div>
-          <div className="text flex flex-col justify-between text-lg">
-            <p className="text-white text-lg">Let&apos;s Make it...</p>
-            <p className="text-white text-lg">Build your website and mobile apps with US</p>
-            <div className="flex flex-row w-full">
+          <div className="text flex flex-col justify-between text-base md:text-lg lg:text-xl">
+            <p className="text-white">Let&apos;s Make it...</p>
+            <p className="text-white">Build your website and mobile apps with US</p>
+            <div className="flex flex-row w-full mt-4">
               <input
                 type="email"
                 className="bg-gray-400/60 active:border-none focus:border-none placeholder:text-white text-center rounded-2xl w-full"
@@ -42,16 +42,16 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-start text-white flex-col justify-center ">
-          <div className="head text-white flex-col font-semibold text-2xl text-start">Help</div>
-          <div className="flex flex-col text-start text-lg">
+        <div className="flex items-start text-white flex-col justify-center">
+          <div className="head text-white font-semibold text-xl md:text-2xl lg:text-3xl">Help</div>
+          <div className="flex flex-col text-start text-base md:text-lg lg:text-xl">
             <Link href="#">How does it works?</Link>
             <Link href="#">Where to start?</Link>
           </div>
         </div>
         <div className="flex items-start flex-col text-white justify-center">
-          <div className="head text-white font-semibold text-2xl">Contact</div>
-          <div className="flex flex-col text-start text-lg">
+          <div className="head text-white font-semibold text-xl md:text-2xl lg:text-3xl">Contact</div>
+          <div className="flex flex-col text-start text-base md:text-lg lg:text-xl">
             <p>+ 1 888 HUBSPOT</p>
             <p>(+1 888 482 7768)</p>
             <p>Headquarters</p>
