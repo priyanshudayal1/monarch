@@ -8,11 +8,12 @@ import LetsCatchUp from "@/components/LetsCatchUp";
 import OurValue from "@/components/OurValue";
 import SectionDivider from "@/components/SectionDivider";
 import SectionDividerRight from "@/components/SectionDividerRight";
-
+import BG from "@/components/BG";
 
 export default function Home() {
   return (
     <div>
+      <BG/>
       <Header />
       <AboutUs />
       <SectionDivider />
