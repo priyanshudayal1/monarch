@@ -9,11 +9,12 @@ import OurValue from "@/components/OurValue";
 import SectionDivider from "@/components/SectionDivider";
 import SectionDividerRight from "@/components/SectionDividerRight";
 import BG from "@/components/BG";
+import OurTeam from "@/components/OurTeam";
 
 export default function Home() {
   return (
     <div>
-      <BG/>
+      <BG />
       <Header />
       <AboutUs />
       <SectionDivider />
@@ -22,6 +23,7 @@ export default function Home() {
       <Intro />
       <SectionDividerRight />
       <HowWeWork />
+      <OurTeam />
       <SectionDivider />
       <LetsCatchUp />
       <Footer />
