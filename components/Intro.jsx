@@ -5,8 +5,8 @@ import interprises from "@/public/interprices.png";
 import agencies from "@/public/agencies.png";
 import Image from "next/image";
 import dashedLine from "@/public/dashedLine.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import nextArrow from "@/public/nextArrow.svg";
+import prevArrow from "@/public/prevArrow.svg";
 
 const items = [
   {
@@ -96,16 +96,16 @@ const Intro = () => {
           ))}
         </div>
         <button
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-lg"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full shadow-lg"
           onClick={handlePrev}
         >
-          <FontAwesomeIcon icon={faArrowLeft} />
+          <Image src={prevArrow} alt="Previous" className="w-10 h-10" />
         </button>
         <button
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-lg"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full shadow-lg"
           onClick={handleNext}
         >
-          <FontAwesomeIcon icon={faArrowRight} />
+          <Image src={nextArrow} alt="Next" className="w-10 h-10" />
         </button>
       </div>
       <div className="flex w-full justify-center items-center">
