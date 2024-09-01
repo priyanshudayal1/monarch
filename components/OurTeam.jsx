@@ -13,64 +13,8 @@ import prevArrow from "@/public/prevArrow.svg";
 import aashish from "@/public/aashish.png";
 import Image from "next/image";
 import Link from "next/link";
+import { teamMembers } from "@/lib/constants";
 
-const teamMembers = [
-  {
-    name: "Aashish Gupta",
-    position: "Founder & CEO",
-    image: aashish,
-    socials: [
-      { icon: facebook, link: "https://facebook.com/johndoe" },
-      { icon: twitter, link: "https://twitter.com/johndoe" },
-      { icon: linkedin, link: "https://linkedin.com/in/johndoe" },
-      { icon: instagram, link: "https://instagram.com/johndoe" },
-    ],
-  },
-  {
-    name: "Anubhav Choubey",
-    position: "Team Developer",
-    image: team2,
-    socials: [
-      { icon: facebook, link: "https://facebook.com/janesmith" },
-      { icon: twitter, link: "https://twitter.com/janesmith" },
-      { icon: linkedin, link: "https://linkedin.com/in/janesmith" },
-      { icon: instagram, link: "https://instagram.com/janesmith" },
-    ],
-  },
-  {
-    name: "Geetanjali Vishwakarma",
-    position: "Team Designer",
-    image: team3,
-    socials: [
-      { icon: facebook, link: "https://facebook.com/alicejohnson" },
-      { icon: twitter, link: "https://twitter.com/alicejohnson" },
-      { icon: linkedin, link: "https://linkedin.com/in/alicejohnson" },
-      { icon: instagram, link: "https://instagram.com/alicejohnson" },
-    ],
-  },
-  {
-    name: "Michael Brown",
-    position: "COO",
-    image: team1,
-    socials: [
-      { icon: facebook, link: "https://facebook.com/michaelbrown" },
-      { icon: twitter, link: "https://twitter.com/michaelbrown" },
-      { icon: linkedin, link: "https://linkedin.com/in/michaelbrown" },
-      { icon: instagram, link: "https://instagram.com/michaelbrown" },
-    ],
-  },
-  {
-    name: "Emily Davis",
-    position: "CMO",
-    image: team2,
-    socials: [
-      { icon: facebook, link: "https://facebook.com/emilydavis" },
-      { icon: twitter, link: "https://twitter.com/emilydavis" },
-      { icon: linkedin, link: "https://linkedin.com/in/emilydavis" },
-      { icon: instagram, link: "https://instagram.com/emilydavis" },
-    ],
-  },
-];
 
 const OurTeam = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

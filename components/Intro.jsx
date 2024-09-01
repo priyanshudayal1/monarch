@@ -7,45 +7,8 @@ import Image from "next/image";
 import dashedLine from "@/public/dashedLine.png";
 import nextArrow from "@/public/nextArrow.svg";
 import prevArrow from "@/public/prevArrow.svg";
+import { items } from "@/lib/constants";
 
-const items = [
-  {
-    image: startup,
-    title: "Web Development",
-    description:
-      "With our Agile and DevOps practises we deliver products within 12-16 weeks with hard-pressed deadlines and high quality standard.",
-  },
-  {
-    image: interprises,
-    title: "App Development",
-    description:
-      "We build and optimize digital platforms with high end experiences for better custom engagement . We create this magic with our expert solutions.",
-  },
-  {
-    image: agencies,
-    title: "Machine Learning",
-    description:
-      "We act as a guiding force for your business upstreaming your performance with our high degree technical expertise and strategy.",
-  },
-  {
-    image: startup,
-    title: "Web Development",
-    description:
-      "With our Agile and DevOps practises we deliver products within 12-16 weeks with hard-pressed deadlines and high quality standard.",
-  },
-  {
-    image: interprises,
-    title: "App Development",
-    description:
-      "We build and optimize digital platforms with high end experiences for better custom engagement . We create this magic with our expert solutions.",
-  },
-  {
-    image: agencies,
-    title: "Machine Learning",
-    description:
-      "We act as a guiding force for your business upstreaming your performance with our high degree technical expertise and strategy.",
-  },
-];
 
 const Intro = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
