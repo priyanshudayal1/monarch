@@ -1,16 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import meetTeamBG from "@/public/meetTeamBG.svg";
-import team1 from "@/public/team1.jpg";
-import team2 from "@/public/team2.jpg";
-import team3 from "@/public/team3.jpg";
-import facebook from "@/public/facebook.png";
-import twitter from "@/public/twitter.png";
-import instagram from "@/public/instagram.png";
-import linkedin from "@/public/linkedin.png";
 import nextArrow from "@/public/nextArrow.svg";
 import prevArrow from "@/public/prevArrow.svg";
-import aashish from "@/public/aashish.png";
 import Image from "next/image";
 import Link from "next/link";
 import { teamMembers } from "@/lib/constants";
@@ -50,7 +42,7 @@ const OurTeam = () => {
           Meet Our Team
         </span>
       </div>
-      <div className="bg-white z-30 py-10 absolute top-44 mx-40">
+      <div className="bg-white z-30 py-10 absolute top-44 ">
         <div className="relative overflow-hidden">
           <div
             className="flex transition-transform duration-500 ease-in-out"

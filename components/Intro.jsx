@@ -1,8 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import startup from "@/public/startup.png";
-import interprises from "@/public/interprices.png";
-import agencies from "@/public/agencies.png";
 import Image from "next/image";
 import dashedLine from "@/public/dashedLine.png";
 import nextArrow from "@/public/nextArrow.svg";

@@ -6,9 +6,9 @@ import logo from "@/public/logo.png";
 const Header = () => {
   return (
     <div
-      className="my-14 flex sticky shadow-lg justify-between items-center top-0 z-30"
+      className="my-6 flex  shadow-lg justify-between items-center top-0 z-30 bg-[#2D81FFDB]"
       style={{
-        background: "linear-gradient(90deg, #545AE8 0%, #545AE8 43.4%, #9747FF 70%)",
+        background: "",
       }}
     >
       <div className="logo mx-8 flex flex-row justify-between items-center">
